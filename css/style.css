@@ -1,4 +1,30 @@
-body{
+body {
     background-color: lightgray;
 
+}
+
+.topheader {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    /* border: 1px solid; */
+}
+
+ul li {
+    margin: 0 20px;
+    font-family: "Source Sans 3";
+    font-size: 16px;
+    /* border: 1px solid; */
+    
+}
+ul li {
+    display: flex;
+    align-items: center;
+
+}
+ul li a{
+    text-decoration: none;
 }
