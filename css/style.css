@@ -52,7 +52,7 @@ ul li a {
     height: 100px;
 }
 
-.right li >a {
+.right li>a {
 
     padding: 2px 15px;
 }
@@ -91,8 +91,10 @@ ul li a {
 .reg:hover {
     background-color: #059862;
 }
-.red{
-    width: 100px;
-    position: relative;
-    background-color: red;
+
+.log {
+    position: absolute;
+    right: 0;
 }
+.log:hover {
+    background-color:yellow };
