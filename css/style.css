@@ -52,12 +52,12 @@ ul li a {
     height: 100px;
 }
 
-.right li a {
+.right li >a {
 
     padding: 2px 15px;
 }
 
-.right li a:hover {
+.right li a.det:hover {
     background-color: #f1f1f1;
     border-radius: 15px;
 }
@@ -69,7 +69,30 @@ ul li a {
 .right li:nth-child(3) span {
     color: #9763f6;
 }
-.reg{
-    background-color: #f66368;
+
+.reg {
+    background-color: #d9eee1;
     display: flex;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.reg a:nth-child(1) {
+    background-color: #04aa6d;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.reg a:nth-child(1):hover {
+    background-color: #059862;
+}
+
+.reg:hover {
+    background-color: #059862;
+}
+.red{
+    background-color: red;
+    width: 100%;
+    position: absolute;
 }

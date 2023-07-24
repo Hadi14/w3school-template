@@ -1,0 +1,33 @@
+.parent {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    background: #355E95;
+    transition: background-color 1s;
+    position: relative;
+    top: -200px;
+}
+
+.child:hover {
+    background: #000;
+}
+
+.sibling {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    top: -50px;
+    left: -50px;
+    background: #3D6AA2;
+    transition: background-color 1s;
+}
+
+.sibling:hover {
+    background: #FFF;
+}
