@@ -1,33 +1,33 @@
+.wrap {
+    box-sizing: border-box;
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    padding: 20px 0 0 20px;
+    margin: 100px 0 0 100px;
+}
+
 .parent {
-    width: 100px;
-    height: 100px;
-    padding: 50px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #09F;
+    transition: all 0.5s ease;
+    opacity: 0.1;
+    margin: 100px 0 0 100px;
 }
 
-.child {
-    height: 100px;
-    width: 100px;
-    background: #355E95;
-    transition: background-color 1s;
-    position: relative;
-    top: -200px;
+.wrap:hover>.parent {
+    transform: scale(1.3);
+    opacity: 1;
 }
 
-.child:hover {
-    background: #000;
-}
-
-.sibling {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    padding: 50px;
-    top: -50px;
-    left: -50px;
-    background: #3D6AA2;
-    transition: background-color 1s;
-}
-
-.sibling:hover {
-    background: #FFF;
+#child {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #F66;
+    z-index: 10;
+    position: absolute;
+    margin: 10px 0 0 10px;
 }

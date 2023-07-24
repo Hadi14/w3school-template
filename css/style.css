@@ -92,7 +92,7 @@ ul li a {
     background-color: #059862;
 }
 .red{
+    width: 100px;
+    position: relative;
     background-color: red;
-    width: 100%;
-    position: absolute;
 }
