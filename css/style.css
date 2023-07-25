@@ -1,6 +1,7 @@
 body {
     background-color: lightgray;
     margin: 0;
+    font-family: "Source Sans 3";
 }
 
 .topheader,
@@ -120,5 +121,34 @@ ul li a {
     font-size: 20px;
     line-height: 27px;
     margin: 0 10px;
+    margin: 20px 0;
+}
+.top{
 
+    background-color: #282a35;
+    color: #fff;
+    text-align: center;
+}
+.top p:nth-child(1) {
+    font-size: 70px;
+    line-height: 105px;
+    font-weight: 700;
+}
+
+.top p {
+    margin: 0;
+
+}
+
+.top .title {
+    color: #ffc0c7;
+    font-size: 23px;
+}
+.searchbox {
+    text-align: center;
+}
+.searchbox .container{
+    background-color: #fff;
+    width: 500px;
+    border-radius: 50px;
 }
