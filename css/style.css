@@ -47,10 +47,7 @@ ul li a {
     text-decoration: none;
 }
 
-.menubar {
-    background-color: #282a35;
-    height: 100px;
-}
+
 
 .right li>a {
 
@@ -88,12 +85,37 @@ ul li a {
 .reg a:nth-child(1):hover {
     background-color: #059862;
 }
+
 .reg a:nth-child(2) {
     background-color: #d9eee1;
     padding: 0 20px;
     margin-left: -10px;
 }
+
 .reg .log:hover {
     background-color: #059862;
 }
 
+.menubar {
+    background-color: #282a35;
+    /* height: 100px; */
+    display: flex;
+}
+
+.mun {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.mun li {
+    color: #c2c3c5;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.menuicon {
+    color: #c2c3c5;
+    font-size: 10px;
+}
