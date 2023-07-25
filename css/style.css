@@ -38,7 +38,7 @@ ul li {
 }
 
 ul li,
-a {
+header a {
     display: flex;
     align-items: center;
 
@@ -160,4 +160,12 @@ ul li a {
     border-radius: 50px;
     /* display: inline-block; */
     margin: auto;
+    padding: 15px 5px;
+}
+
+.searchbox .container input {
+    /* width: 98%; */
+    border: 0;
+    outline: 0;
+    border: 1px solid;
 }
