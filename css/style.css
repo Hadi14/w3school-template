@@ -71,7 +71,7 @@ ul li a {
 }
 
 .reg {
-    background-color: #d9eee1;
+    /* background-color: #d9eee1; */
     display: flex;
     padding: 0px;
     border-radius: 15px;
@@ -82,19 +82,18 @@ ul li a {
     background-color: #04aa6d;
     border-radius: 15px;
     padding: 5px 20px;
+    z-index: 0;
 }
 
 .reg a:nth-child(1):hover {
     background-color: #059862;
 }
-
-.reg:hover {
+.reg a:nth-child(2) {
+    background-color: #d9eee1;
+    padding: 0 20px;
+    margin-left: -10px;
+}
+.reg .log:hover {
     background-color: #059862;
 }
 
-.log {
-    position: absolute;
-    right: 0;
-}
-.log:hover {
-    background-color:yellow };
