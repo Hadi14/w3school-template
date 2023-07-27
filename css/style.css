@@ -184,3 +184,28 @@ ul li a {
     line-height: 40px;
 
 }
+
+a.notsure {
+    font-weight: 900;
+    font-size: 23px;
+    text-decoration: underline;
+    padding: 40px 0;
+    color: #fff;
+    display: block;
+}
+
+.courses .html {
+    background-color: #d9eee1;
+    display: flex;
+}
+.courses .html .left{
+    display: flex;
+}
+.courses .html .left .btns {
+    background-color: #04AA6D;
+    width: 200px;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
