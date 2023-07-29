@@ -139,6 +139,8 @@ ul li a {
 
 .top p {
     margin: 0;
+    /* margin-bottom: 0; */
+    padding: 0;
 
 }
 
@@ -197,10 +199,18 @@ a.notsure {
 .courses .html {
     background-color: #d9eee1;
     display: flex;
+    justify-content: space-around;
+    height: 250px;
 }
-.courses .html .left{
+
+.courses .html .left {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
 }
+
 .courses .html .left .btns {
     background-color: #04AA6D;
     width: 200px;
@@ -208,4 +218,6 @@ a.notsure {
     color: #fff;
     text-align: center;
     font-size: 18px;
+    margin: auto;
+    padding: 8px 16px
 }
