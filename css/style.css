@@ -220,9 +220,8 @@ a.notsure {
 .courses .html {
     background-color: #d9eee1;
     display: flex;
-
     justify-content: space-around;
-    height: 250px;
+    /* height: 250px; */
 }
 
 .courses .html .left {
@@ -240,13 +239,24 @@ a.notsure {
     color: #fff;
     text-align: center;
     font-size: 18px;
-    margin: auto;
+    font-weight: 600;
+    margin: 10px;
     padding: 8px 16px
 }
 
-/* .svg {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-top: 20px;
-} */
+.svg {
+    display: block;
+}
+
+.courses .html .left #video {
+    background-color: #FFF4A3 !important;
+    color: #000;
+}
+.courses .html .left #get {
+    background-color: #ffb3bb!important ;
+    color: #000;
+}
+.courses .html .left #refrence {
+    background-color: #282A35 !important;
+    /* color: #000; */
+}
