@@ -5,9 +5,19 @@ body {
 }
 
 .topheader,
-.left {
+.left,
+.right {
     display: flex;
-    justify-content: space-between;
+}
+
+.left,
+.right {
+    flex-grow: 1;
+}
+
+.right {
+    justify-content: end;
+
 }
 
 ul {
@@ -18,7 +28,7 @@ ul {
 }
 
 ul li {
-    padding: 13px 20px;
+    padding: 13px 5px;
     font-family: "Source Sans 3";
     font-size: 16px;
     /* border: 1px solid; */
@@ -104,17 +114,26 @@ ul li a {
 }
 
 .mun {
-    margin: 0 10px;
+    margin: 0 3px;
     padding: 0;
 }
 
 .mun li {
     color: #c2c3c5;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 3px;
+    padding-right: 3px;
     padding-top: 5px;
     padding-bottom: 0;
 }
+
+
+.menuicon {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 
 .menuicon span {
     color: #c2c3c5;
@@ -129,6 +148,8 @@ ul li a {
     background-color: #282a35;
     color: #fff;
     text-align: center;
+    /* position: relative;
+    height: 350px; */
 }
 
 .top p:nth-child(1) {
@@ -151,7 +172,7 @@ ul li a {
 
 .searchbox {
     text-align: center;
-    margin: 40px;
+    /* margin: 40px; */
     /* border: 1px solid #fff; */
     padding: 10px;
 }
@@ -199,6 +220,7 @@ a.notsure {
 .courses .html {
     background-color: #d9eee1;
     display: flex;
+
     justify-content: space-around;
     height: 250px;
 }
@@ -221,3 +243,10 @@ a.notsure {
     margin: auto;
     padding: 8px 16px
 }
+
+/* .svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+} */
