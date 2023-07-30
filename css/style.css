@@ -15,7 +15,7 @@ body {
     flex-grow: 1;
 }
 
-.right {
+.topheader .right {
     justify-content: end;
 
 }
@@ -259,4 +259,12 @@ a.notsure {
 .courses .html .left #refrence {
     background-color: #282A35 !important;
     /* color: #000; */
+}
+
+.courses .html .right {
+    justify-content: center;
+}
+.courses .html .right .htmlcode{
+    width: 400px;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
