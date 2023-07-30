@@ -216,7 +216,9 @@ a.notsure {
     color: #fff;
     display: block;
 }
-
+.courses{
+    padding: 30px 10px;
+}
 .courses .html {
     background-color: #d9eee1;
     display: flex;
