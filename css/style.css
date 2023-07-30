@@ -266,5 +266,27 @@ a.notsure {
 }
 .courses .html .right .htmlcode{
     width: 400px;
-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: #E7E9EB;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
+.courses .html .right .htmlcode h1{
+    margin-left: 20px;
+ }
+.courses .html .right .htmlcode .code{
+    background-color: #fff;
+    margin: 20px;
+    padding: 5px;
+    border-left:4px solid  #04AA6D;
+}
+#htmltry{
+    background-color: #04AA6D;
+    width: 200px;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 8px 16px;
+}
+
