@@ -325,7 +325,8 @@ section.othercourse {
     color: white;
     display: flex;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 section.othercourse .cards {
@@ -334,14 +335,16 @@ section.othercourse .cards {
     text-align: center;
     padding: 30px;
     border-radius: 5px;
+    margin: 20px;
 }
 
 section.othercourse .cards p {
     margin: 30px auto;
 }
+
 section.othercourse .cards a {
     padding: 10px 50px;
-    background-color:#282A35 ;
+    background-color: #282A35;
     color: #fff;
     border-radius: 20px;
     display: inline-block;
@@ -355,6 +358,41 @@ section.othercourse .php {
 section.othercourse .jquery {
     background-color: #fff4a3;
 }
+
 section.othercourse .java {
     background-color: #f3ecea;
+}
+
+section.othercourse .cplus {
+    background-color: #d9eee1;
+}
+
+section.othercourse .w3css {
+    background-color: #96d4d4;
+}
+
+section.othercourse .bootstrap {
+    background-color: #e7e9eb;
+}
+
+section.othercourse .c {
+    background-color: #ffc0c7;
+}
+
+section.othercourse .csharp {
+    background-color: #eae098;
+}
+
+
+section.other {
+    background-color: #282A35;
+}
+section.other .othercards {
+    width: 24.9%;
+    padding: 20px;
+    margin: 20px;
+}
+
+section.other .othercards.r {
+    background-color:#dfd9d8 ;
 }
