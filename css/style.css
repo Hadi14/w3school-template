@@ -216,11 +216,11 @@ a.notsure {
     color: #fff;
     display: block;
 }
-.courses{
-    padding: 30px 10px;
+section.courses{
+    padding: 40px;
+    background-color: #d9eee1;
 }
 .courses .html {
-    background-color: #d9eee1;
     display: flex;
     justify-content: space-around;
     /* height: 250px; */
