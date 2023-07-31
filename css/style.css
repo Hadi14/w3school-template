@@ -386,13 +386,59 @@ section.othercourse .csharp {
 
 section.other {
     background-color: #282A35;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 section.other .othercards {
-    width: 24.9%;
+    width: 16%;
     padding: 20px;
     margin: 20px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 section.other .othercards.r {
-    background-color:#dfd9d8 ;
+    background-color: #dfd9d8;
+}
+
+section.other .othercards.kotlin {
+    background-color: #c8dbd0;
+
+}
+
+section.other .othercards.nodejs {
+    background-color: #96d4d4;
+
+}
+
+section.other .othercards.react {
+    background-color: #eab1b9;
+
+}
+
+section.other .othercards.json {
+    background-color: #eae098;
+
+}
+
+section.other .othercards.vue {
+    background-color: #dfd9d8;
+
+}
+
+section.other .othercards.mysql {
+    background-color: #c8dbd0;
+
+}
+
+section.other .othercards.xml {
+    background-color: #eae098;
+
+}
+footer{
+    padding: 30px 5px;
+    text-align: center;
+    color: gray;
 }
